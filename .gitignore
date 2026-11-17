@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Spark & Delta Lake temporary checkpoints/warehouses
+tmp/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# macOS & IDE
+.DS_Store
+.vscode/
+.idea/
+EOF
